@@ -1,0 +1,281 @@
+body {
+    background-color: black;
+    display: flex;
+    height: 120vmin;
+    width: 150vmin;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main {
+    background-color: whitesmoke;
+    height: 80vmin;
+    width: 110vmin;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.container1,
+.container2,
+.container3 {
+    height: 100%;
+    width: 33%;
+}
+
+.container1 {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+
+.picP {
+    height: 49%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0px 2px 5px 0px #888888;
+}
+
+.pic {
+    height: 70%;
+    background-color: gray;
+    width: 95%;
+}
+
+.threelines {
+    /*background-color: green;*/
+    height: 15%;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: stretch;
+    align-items: center;
+}
+.longbold{
+    background-color: gray;
+    height: 50%;
+    width: 50%;
+    border-radius: 15px;
+}
+.twolines{
+    /* background-color: cadetblue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.short{
+    background-color: gray;
+    height: 35%;
+    width: 75%;
+    border-radius: 15px;
+}
+.long{
+    background-color: gray;
+    border-radius: 15px;
+    height: 35%;
+    width: 95%;
+}
+.P {
+    height: 30%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    box-shadow: 0px 2px 5px 0px #888888;
+    padding-left: 3px;
+}
+.Pfirst{
+    background-color: gray;
+    width: 90%;
+    height: 15%;
+    border-radius: 15px;
+}
+.Psecond{
+    background-color: gray;
+    width: 35%;
+    height: 15%;
+    border-radius: 15px;
+}
+.Pthierd{
+    background-color: gray;
+    width: 75%;
+    height: 15%;
+    border-radius: 15px;
+}
+.Pfourth{
+    background-color: gray;
+    width: 60%;
+    height: 15%;
+    border-radius: 15px;
+}
+.footer {
+    height: 20%;
+    box-shadow: 0px 2px 5px 0px #888888;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerline{
+    background-color: gray;
+    height: 30%;
+    width: 95%;
+    border-radius: 15px;
+}
+
+.container2 {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.Pc{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 5px 0px #888888;
+}
+.Pcright{
+    /* background-color: yellow; */
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 3px;
+}
+.Pcrightfirst{
+    background-color: gray;
+    width: 95%;
+    height: 15%;
+    border-radius: 15px;
+}
+.Pcrightsecond{
+    background-color: gray;
+    width: 65%;
+    height: 15%;
+    border-radius: 15px;
+}
+.circle{
+    background-color: gray;
+    height: 65%;
+    width: 30%;
+    border-radius: 50%;
+}
+.Rec{
+    height: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 5px 0px #888888;
+}
+.rec{
+    background-color: gray;
+    height: 95%;
+    width: 95%;
+}
+
+.container3 {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.Above{
+    background-color: whitesmoke;
+    height: 67%;
+    box-shadow: 0px 2px 5px 0px #888888;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5px;
+}
+.Abovefirst{
+    background-color: gray;
+    height: 15%;
+    width: 75%;
+    border-radius: 20px;
+}
+.Abovesecond{
+    background-color: gray;
+    height: 50%;
+    width: 95%;
+}
+.Abovetheird{
+    background-color: gray;
+    width: 70%;
+    height: 7%;
+    border-radius: 15px;
+}
+.Abovefourth{
+    background-color: gray;
+    width: 40%;
+    height: 7%;
+    border-radius: 15px;
+}
+.Abovelast{background-color: gray;
+width: 90%;
+height: 7%;
+border-radius: 15px;
+}
+.Down{
+    background-color: whitesmoke;
+    height: 29%;
+    box-shadow: 0px 2px 5px 0px #888888;
+    display: flex;
+    padding: 5px;
+}
+.Downleft{
+    background-color: gray;
+    height: 100%;
+    width: 50%;
+}
+.Downright{
+    height: 100%;
+    width: 50%;
+}
+.Downrighthead{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5px;
+}
+.Downrightfl{
+    background-color: gray;
+    width: 90%;
+    height: 7%;
+    border-radius: 15px;
+}.Downrightf2{
+    background-color: gray;
+    width: 70%;
+    height: 7%;
+    border-radius: 15px;
+}
+.Downrightf3{
+    background-color: gray;
+    width: 75%;
+    height: 7%;
+    border-radius: 15px;
+}
+.Downleftfooter{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downfooterline{
+    background-color: gray;
+    width: 90%;
+    height: 20%;
+    border-radius: 15px;
+}
